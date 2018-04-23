@@ -62,14 +62,14 @@
 
 
 
-    function areacalc(width, height, depth) {
+    function area_and_volume(width, height, depth) {
         var area = width * height;
         var volume = width * height * depth;
-        return document.getElementById('area_box').innerHTML = "The area of the box is: " + area;
-        return document.getElementById('volume_box').innerHTML = "The volume of the box is: " + volume;
+        
+        return "The area of the box is : " + area + "<br>" + "The volum of the box is: " + volume;
     }
 
-    areacalc(5, 8, 3);
+    console.log(area_and_volume(7, 2, 5));
     // Area and Volume of a Box 
     // incomplete!
 
